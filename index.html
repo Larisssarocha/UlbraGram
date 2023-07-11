@@ -6,59 +6,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UlbraGram</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- Option 1: Include in HTML -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-2 pt-lg-5 pb-lg-2 border-end"> 
+            <div class="col 12 col-lg-2 pt-lg-5 pb-lg-2 border-end">
                 <h5 class="text-center d-none d-lg-block">UlbraGram</h5>
                 <nav class="navbar navbar-expand-lg">
                     <h5 class="text-center d-block d-lg-none">UlbraGram</h5>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                      data-bs-target="offcanvasMenu" aria-controls="offcanvasMenu" aria-expanded="false"
-                      aria-label="Toggle navigation"><spam class="navbar-toggler-icon"></spam>
-                    </button>
-                    <div class="collapse navbar-collapse mt-4" id="navbarNav">
+                    data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse mt-4">
                         <ul class="navbar-nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-house"></i> Home</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-house-door me-2"></i> Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-search"></i> Pesquisar</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-search me-2"></i>Pesquisar</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-compass"></i> Explorar</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-compass me-2"></i>Explorar</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-film"></i> Reels</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-camera-reels me-2"></i>Reels</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-chat"></i> Mensagens</a>
-                            </li>
-                            
-                            
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-heart"></i> Notificações</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-chat me-2"></i></i>Mensagens</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-plus-circle"></i> Criar</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-bell me-2"></i>Notificação</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-person-circle"></i> Perfil</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-plus-circle me-2"></i>Criar</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#"><i class="bi bi-three-dots-vertical"></i> Mais</a>
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-person-circle me-2"></i>Perfil</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark"href="#"></a><i class="bi bi-three-dots-vertical me-2"></i>Mais</a>
+                            </li>
+
                         </ul>
                     </div>
                 </nav>
             </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labellebdy='offcanvarMenuLabel'>
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-house-door me-2"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-search me-2"></i>Pesquisar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-compass me-2"></i>Explorar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-camera-reels me-2"></i>Reels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-chat me-2"></i></i>Mensagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-bell me-2"></i>Notificação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-plus-circle me-2"></i>Criar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-person-circle me-2"></i>Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"href="#"></a><i class="bi bi-three-dots-vertical me-2"></i>Mais</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7">
+                <div class="row d-flex justify-content-center mt-4">
+                    <div class="story text-center">
+                        <img src="https://petepop.ig.com.br/wp-content/uploads/2021/06/reproduc%CC%A7a%CC%83o-instagram.jpg" alt="foto 1">
+                        <p class="mt-1">Gosha</p>
+                    </div>
+                    <div class="story text-center">
+                        <img src="https://matt26187.files.wordpress.com/2009/09/1-club-penguin-ninja.png?w=276&h=300" alt="foto 2">
+                        <p class="mt-1">Joaozinho</p>
+                    </div>
+                    <div class="story text-center">
+                        <img src="https://static.quizur.com/i/b/5a3336f4aef435.840432755a3336f49aa687.84256728.png" alt="foto 3">
+                        <p class="mt-1">Faustão</p>
+                    </div>
+                    <div class="story text-center">
+                        <img src="https://images.mubicdn.net/images/film/238709/cache-446717-1561130600/image-w1280.jpg?size=800x" alt="foto 4">
+                        <p class="mt-1">Ablublubé</p>
+                    </div>
+                    <div class="story text-center d-none d-md-block">
+                        <img src="https://s2.glbimg.com/umlVDCHmCV55CTxdpex50eu9cmA=/620x465/s.glbimg.com/jo/g1/f/original/2016/01/06/kim-jong-un.jpg" alt="foto 5">
+                        <p class="mt-1">Kim Oficial</p>
+                    </div>
+                    <div class="story text-center d-none d-md-block">
+                        <img src="https://jpimg.com.br/uploads/2020/07/mc-poze-rodo.jpg" alt="foto 6">
+                        <p class="mt-1">Poze</p>
+                    </div>
+                    <div class="story text-center d-none d-md-block">
+                        <img src="https://img.freepik.com/fotos-premium/imagem-de-um-homem-emocional-jovem-feliz-animado-posando-isolado-sobre-uma-parede-branca_171337-101507.jpg" alt="foto 7">
+                        <p class="mt-1">Google imagens</p>
+                    </div>
+                    <div class="story text-center d-none d-md-block">
+                        <img src="https://s1.static.brasilescola.uol.com.br/be/e/borboleta(1).jpg" alt="foto 8">
+                        <p class="mt-1">Tia Paula</p>
+                    </div>
+                    <div class="story text-center d-none d-md-block">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brad_Pitt_Fury_2014.jpg/800px-Brad_Pitt_Fury_2014.jpg" alt="foto 9">
+                        <p class="mt-1">Brad Pitt</p>
+                    </div>
+                    <div class="story text-center d-none d-md-block">
+                        <img src="https://pagina1.com.br/wp-content/uploads/2023/03/842ded54225c0170c80576b2ed76bd41.jpeg" alt="foto 10">
+                        <p class="mt-1">Lorena</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="post">
+                        <div class="row">
+                            <div class="col post-header">
+                                <div class="story post-header-profile">
+                                    <img src="https://i.pinimg.com/474x/f5/a3/1b/f5a31b8b43609b08ec71c269a0086fe8.jpg" alt="foto 11">
+                                </div>
+                                <p><strong>S4DB0Y_0445569</strong> . 2h</p>
+                            </div>
+                        </div>
+                        <img src="https://i1.sndcdn.com/artworks-000240095617-5wv35l-t500x500.jpg" alt="imagem do post" class="post-image">
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn">
+                                    <i class="bi bi-heart"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="bi bi-chat-dots"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="bi bi-share"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
